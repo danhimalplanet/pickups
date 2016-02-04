@@ -24,4 +24,8 @@ $ pip install -r requirements.txt
 
 $ mkdir -p ${HOME}/.cache/hangups/
 
-$ python -m pickups
+$ python3 run.py
+
+### Run server on different port
+
+$ python3 run.py 7667
