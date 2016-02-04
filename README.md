@@ -9,7 +9,7 @@ IRC gateway for Google Hangouts using
 
 You will be given a URL to your oauth2 token.  Go to the url.  Copy the token.
 You will be prompted for your oauth2 token.  Paste it in.
-Connect yoru IRC client to localhost on port 6667
+Connect your IRC client to localhost on port 6667
 
 ### Run under python3 and virtualenv
 
