@@ -3,9 +3,6 @@
 IRC gateway for Google Hangouts using
 [hangups](https://github.com/tdryer/hangups).
 
-This is currently just a prototype.
-
-
 ## Usage
 
 `$ python3 run.py`
