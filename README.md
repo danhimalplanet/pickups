@@ -7,9 +7,9 @@ IRC gateway for Google Hangouts using
 
 `$ python3 run.py`
 
-You will be prompted for your Google credentials and only the resulting cookies
-from authentication will be saved. Then connect your IRC client to `localhost`
-on port `6667`.
+You will be given a URL to your oauth2 token.  Go to the url.  Copy the token.
+You will be prompted for your oauth2 token.  Paste it in.
+Connect yoru IRC client to localhost on port 6667
 
 ### Run under python3 and virtualenv
 
@@ -22,3 +22,7 @@ $ pip install -r requirements.txt
 $ mkdir -p ${HOME}/.cache/hangups/
 
 $ python3 run.py
+
+### Run hangups on a different port
+
+$ python3 run.py --port=7667
