@@ -26,3 +26,8 @@ $ python3 run.py
 ### Run hangups on a different port
 
 $ python3 run.py --port=7667
+
+### Manage hangups with zdaemon, run server on port 7667
+
+$ source venv/bin/activate
+$ zdaemon -f -p 'python /home/danh/local/pickups/run.py --port 7667' start
