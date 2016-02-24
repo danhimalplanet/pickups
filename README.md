@@ -27,7 +27,7 @@ python3 run.py
 
 python3 run.py --port=7667
 
-### Run under virtualevn, manage hangups with zdaemon, run server on port 7667
+### Run under virtualenv, run hangups with zdaemon, run server on port 7667
 
 virtualenv -p python3 venv
 
