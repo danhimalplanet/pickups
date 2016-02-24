@@ -13,22 +13,28 @@ Connect your IRC client to localhost on port 6667
 
 ### Run under python3 and virtualenv
 
-$ virtualenv -p python3 venv
+virtualenv -p python3 venv
 
-$ source venv/bin/activate
+source venv/bin/activate
 
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 
-$ mkdir -p ${HOME}/.cache/hangups/
+mkdir -p ${HOME}/.cache/hangups/
 
-$ python3 run.py
+python3 run.py
 
 ### Run hangups on a different port
 
-$ python3 run.py --port=7667
+python3 run.py --port=7667
 
-### Manage hangups with zdaemon, run server on port 7667
+### Run under virtualevn, manage hangups with zdaemon, run server on port 7667
 
-$ source venv/bin/activate
+virtualenv -p python3 venv
 
-$ zdaemon -f -p 'python run.py --port 7667' start
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+mkdir -p ${HOME}/.cache/hangups/
+
+zdaemon -f -p 'python3 run.py --port 7667' start
