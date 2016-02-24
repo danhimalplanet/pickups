@@ -31,4 +31,4 @@ $ python3 run.py --port=7667
 
 $ source venv/bin/activate
 
-$ zdaemon -f -p 'python /home/danh/local/pickups/run.py --port 7667' start
+$ zdaemon -f -p 'python run.py --port 7667' start
